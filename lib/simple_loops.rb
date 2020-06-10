@@ -26,9 +26,10 @@ end
 def return_string_array(array)
   count = 0 
   strarray = []
-  while count < array.length - 1 do
+  while count < array.length do
     strarray.push(array[count].to_s)
-    puts strarray
+    count += 1
+  end
     strarray
   end
 end
